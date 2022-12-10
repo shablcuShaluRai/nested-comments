@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  min-height: 90vh;
+  box-shadow: 4px 12px 27px 6px grey;
+  width: 700px;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.reply-wrapper {
+  display: flex;
+}
+
+.btn {
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: transparent;
+}
+
+.reply-btn {
+  color: blue;
+  border: 1px solid blue;
+  background: white;
+}
+
+.delete-btn {
+  color: red;
+  border: 1px solid red;
+  background: white;
+}
+
+.add-comment-btn {
+  background: rgb(59, 73, 223);
+  color: white;
+}
+
+.input-class {
+  padding: 0.5rem 1rem;
+  border-radius: 0.1rem;
+}
+
+.body-text {
+  font-size: larger;
+}
